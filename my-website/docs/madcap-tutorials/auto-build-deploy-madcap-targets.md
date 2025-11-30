@@ -27,8 +27,10 @@ To build a MadCap target using the command line do the following:
 
 Add the following commands to a script to complete the above steps: 
 
-    cd [Your MadCap Flare Installation Directory]
-    madbuild -project [Your Project Path] -target [Your Target Name]
+```
+cd [Your MadCap Flare Installation Directory]
+madbuild -project [Your Project Path] -target [Your Target Name]
+```
 
 The above script will automatically change to your MadCap Flare directory and build the designated targets each time it runs.  
 
@@ -36,7 +38,9 @@ The above script will automatically change to your MadCap Flare directory and bu
 
 Whether you’re using Windows or Linux, you can use Curl to upload the generated MadCap Flare output files to a remote server for deployment. After installing Curl, you can use the following command to upload a file to a remote server: 
 
-    curl -T madCapOutputFile -u user:password ftp://ftp.example.com/
+```
+curl -T madCapOutputFile -u user:password ftp://ftp.example.com/
+```
 
 Add the above line of code to your script file below the lines of code that builds your MadCap Flare output. 
 

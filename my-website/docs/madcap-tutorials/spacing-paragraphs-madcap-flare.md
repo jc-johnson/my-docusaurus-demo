@@ -44,6 +44,7 @@ div.note
 }
 ```
 
+
 ### Basic Note Example
 
 ![Note Example](../../src/resources/img/madcap/ParagraphSpacing/BasicNoteExample.png)
